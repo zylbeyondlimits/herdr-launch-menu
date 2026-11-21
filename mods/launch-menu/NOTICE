@@ -1,0 +1,10 @@
+launch-menu is a modified copy of the `new-menu` mod shipped with the Herdr
+desktop app 0.1.16 (https://github.com/herdrdev/herdr-app), licensed under
+the Apache License 2.0 (LICENSE in this folder).
+
+Changes from the original: the agent list follows data/launch-menu/config.json
+(order, hidden agents, extra flags, per-agent bypass; config.js); a right-click
+on an agent turns its skip-permissions flag on or off and saves the config;
+⇧-click starts it without, ⌥-click splits right; ↑/↓ and Enter work on every
+row. Its last agent list is kept in shared "launch-menu.agents" (Herdr's
+new-menu keeps "new-menu.agents", which this only reads).
